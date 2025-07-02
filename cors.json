@@ -1,0 +1,10 @@
+[
+	{
+    	"origin": ["http://localhost:5173", "http://192.168.1.2:5173",
+    	"https://paselsoft.github.io"],
+        "method": ["GET", "PUT", "POST", "DELETE"],
+        "maxAgeSeconds": 3600,
+        "responseHeader": ["Content-Type",
+     	"x-firebase-storage-download-tokens"]
+    }
+]
